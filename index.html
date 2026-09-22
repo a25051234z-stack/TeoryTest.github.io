@@ -70,8 +70,8 @@
   .badge{display:inline-block;font-size:12px;font-weight:700;color:var(--brand);background:var(--brand-soft);
     padding:4px 10px;border-radius:999px;margin-bottom:10px}
   .qtext{font-size:20px;font-weight:700;letter-spacing:-.01em;margin:2px 0 14px}
-  .qimg{display:block;max-width:100%;height:auto;border-radius:10px;margin:0 0 16px;border:1px solid var(--line)}
-  .qimg.small{max-width:340px}
+  .qimg{display:block;max-width:100%;height:auto;border-radius:10px;margin:0 0 16px;border:1px solid var(--line);background:#fff;padding:4px}
+  .qimg.small{max-width:520px;max-height:300px;object-fit:contain}
   
   /* Options */
   .opts{display:flex;flex-direction:column;gap:10px}
@@ -164,7 +164,7 @@
   .hide{display:none!important}
   .footnote{text-align:center;color:var(--muted);font-size:12.5px;margin-top:30px}
   kbd{font:inherit;font-size:12px;background:var(--card);border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:1px 6px}
-  @media (max-width:560px){.qimg{margin:10px auto 14px;max-height:200px;object-fit:contain;background:#fff;padding:4px;box-shadow:0 2px 8px rgba(0,0,0,.04)}.qimg.small{max-width:220px!important}.card{padding:16px}.qtext{font-size:17px;line-height:1.35}.opt{padding:11px 13px;font-size:14px}}
+ @media (max-width:560px){.qimg{margin:10px auto 14px;padding:4px}.qimg.small{max-width:220px!important;max-height:180px!important}.card{padding:16px}.qtext{font-size:17px;line-height:1.35}.opt{padding:11px 13px;font-size:14px}}
 </style>
 </head>
 <body>
